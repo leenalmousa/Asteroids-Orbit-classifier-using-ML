@@ -25,9 +25,9 @@ This work was **published at [ICTCS 2025](https://www.researchgate.net/publicati
 
 ## Dataset
 
-Orbital and physical parameters for all known asteroids, with **`Orbit_type`** as the target label. The notebook expects `orbits.csv` in the repository root.
+Orbital parameters for every known asteroid catalogued by the IAU **Minor Planet Center (MPC)**, with **`Orbit_type`** as the target label. The notebook expects `orbits.csv` in the repository root.
 
-Source: NASA JPL Small-Body Database — also available as the [Asteroid Dataset on Kaggle](https://www.kaggle.com/datasets/sakhawat18/asteroid-dataset). Download `orbits.csv` (or rename the equivalent file) and place it next to the notebook before running.
+**Source:** [Orbit Data for All Known Asteroids in MPC Database](https://www.kaggle.com/datasets/shivamshandilya/orbit-data-for-all-known-asteroids-in-mpc-database) on Kaggle. Download the CSV, rename it to `orbits.csv` (if needed), and place it next to the notebook before running.
 
 ## Pipeline
 
@@ -62,7 +62,7 @@ Source: NASA JPL Small-Body Database — also available as the [Asteroid Dataset
 └── LICENSE
 ```
 
-> `orbits.csv` is **not** committed (large + redistributable from JPL/Kaggle). Place it in the repo root before running.
+> `orbits.csv` is **not** committed (large + freely available from the Kaggle source above). Place it in the repo root before running.
 
 ## Quick start
 
