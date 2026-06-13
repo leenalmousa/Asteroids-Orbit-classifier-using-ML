@@ -2,10 +2,18 @@
 
 A supervised machine-learning pipeline that classifies asteroids into their **orbit type** (MBA, Atira, Apollo, Amor, Aten, etc.) from physical and orbital features. Built end-to-end: exploratory analysis, class-imbalance handling, outlier removal, feature scaling, PCA, model comparison via cross-validation, and ensemble methods.
 
+[![Conference](https://img.shields.io/badge/Published-ICTCS%202025%20%C2%B7%20PSUT-2E8B57)](https://www.researchgate.net/publication/391933697_Asteroid_Orbit_Classification_with_Machine_Learning_A_Data-Driven_Approach)
 [![Made with Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](Code.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+## Publication
+
+This work was **published at [ICTCS 2025](https://www.researchgate.net/publication/391933697_Asteroid_Orbit_Classification_with_Machine_Learning_A_Data-Driven_Approach)** &mdash; *International Conference on Information Technology and Computer Science*, hosted at **Princess Sumaya University for Technology (PSUT)**, Jordan.
+
+> **Asteroid Orbit Classification with Machine Learning: A Data-Driven Approach**
+> &nbsp;&nbsp;&nbsp;Read on [ResearchGate](https://www.researchgate.net/publication/391933697_Asteroid_Orbit_Classification_with_Machine_Learning_A_Data-Driven_Approach) &middot; local copy: [`Asteroid_Orbit_Classifier_Report.pdf`](Asteroid_Orbit_Classifier_Report.pdf)
 
 ## Highlights
 
@@ -73,9 +81,20 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 jupyter notebook Code.ipynb
 ```
 
-## Report
+## Citation
 
-The full write-up &mdash; problem framing, methodology, evaluation, and discussion &mdash; is in [`Asteroid_Orbit_Classifier_Report.pdf`](Asteroid_Orbit_Classifier_Report.pdf).
+If you reference this work, please cite:
+
+```bibtex
+@inproceedings{almousa2025asteroid,
+  title     = {Asteroid Orbit Classification with Machine Learning: A Data-Driven Approach},
+  author    = {Almousa, Leen},
+  booktitle = {Proceedings of the International Conference on Information Technology and Computer Science (ICTCS)},
+  year      = {2025},
+  address   = {Princess Sumaya University for Technology (PSUT), Jordan},
+  url       = {https://www.researchgate.net/publication/391933697_Asteroid_Orbit_Classification_with_Machine_Learning_A_Data-Driven_Approach}
+}
+```
 
 ## Author
 
