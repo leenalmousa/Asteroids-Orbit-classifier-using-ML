@@ -13,7 +13,7 @@ A supervised machine-learning pipeline that classifies asteroids into their **or
 This work was **published at [ICTCS 2025](https://www.researchgate.net/publication/391933697_Asteroid_Orbit_Classification_with_Machine_Learning_A_Data-Driven_Approach)** &mdash; *International Conference on Information Technology and Computer Science*, hosted at **Princess Sumaya University for Technology (PSUT)**, Jordan.
 
 > **Asteroid Orbit Classification with Machine Learning: A Data-Driven Approach**
-> &nbsp;&nbsp;&nbsp;Leen Almousa, Tala Hammouri, Lojain Hamadan &mdash; PSUT
+> &nbsp;&nbsp;&nbsp;Leen Almousa, Tala Hammouri, Lojain Hamadan and Dr.Heba Heba Abdel-Nabi &mdash; PSUT
 > &nbsp;&nbsp;&nbsp;[Read on ResearchGate](https://www.researchgate.net/publication/391933697_Asteroid_Orbit_Classification_with_Machine_Learning_A_Data-Driven_Approach) &middot; [Preprint PDF](Preprint_Asteroid_Orbit_Classifier_Report.pdf)
 
 ## Highlights
