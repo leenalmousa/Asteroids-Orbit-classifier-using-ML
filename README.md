@@ -57,7 +57,7 @@ Orbital parameters for every known asteroid catalogued by the IAU **Minor Planet
 ```
 .
 ├── Code.ipynb     # full notebook — EDA, preprocessing, model comparison, ensembles
-├── Asteroid_Orbit_Classifier_Report.pdf     # written report describing methodology and results
+├── Non_offical_published_Asteroid_Orbit_Classifier_Report.pdf     # written report describing methodology and results
 ├── README.md
 └── LICENSE
 ```
