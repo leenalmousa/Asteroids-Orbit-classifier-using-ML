@@ -13,7 +13,8 @@ A supervised machine-learning pipeline that classifies asteroids into their **or
 This work was **published at [ICTCS 2025](https://www.researchgate.net/publication/391933697_Asteroid_Orbit_Classification_with_Machine_Learning_A_Data-Driven_Approach)** &mdash; *International Conference on Information Technology and Computer Science*, hosted at **Princess Sumaya University for Technology (PSUT)**, Jordan.
 
 > **Asteroid Orbit Classification with Machine Learning: A Data-Driven Approach**
-> &nbsp;&nbsp;&nbsp;Read on [ResearchGate](https://www.researchgate.net/publication/391933697_Asteroid_Orbit_Classification_with_Machine_Learning_A_Data-Driven_Approach) &middot;
+> &nbsp;&nbsp;&nbsp;Leen Almousa, Tala Hammouri, Lojain Hamadan &mdash; PSUT
+> &nbsp;&nbsp;&nbsp;[Read on ResearchGate](https://www.researchgate.net/publication/391933697_Asteroid_Orbit_Classification_with_Machine_Learning_A_Data-Driven_Approach) &middot; [Preprint PDF](Preprint_Asteroid_Orbit_Classifier_Report.pdf)
 
 ## Highlights
 
@@ -42,22 +43,31 @@ Orbital parameters for every known asteroid catalogued by the IAU **Minor Planet
 
 ## Results
 
-| Model                          | Accuracy |
-|--------------------------------|----------|
-| Multi-Layer Perceptron (MLP)   | **100%** |
-| Random Forest                  | high     |
-| Decision Tree                  | high     |
-| Gaussian Naïve Bayes           | medium   |
-| K-Nearest Neighbors            | **83%** (lowest) |
+Test-set accuracy across the five classifiers (Table 13 of the paper):
 
-> Full per-class precision / recall / F1 and confusion matrices are in [`Code.ipynb`](Code.ipynb).
+| Algorithm                      | Accuracy |
+|--------------------------------|----------|
+| **Multi-Layer Perceptron (MLP)** | **100%** |
+| Random Forest                  | 97%      |
+| Decision Tree                  | 96%      |
+| Gaussian Naïve Bayes           | 95%      |
+| K-Nearest Neighbors (KNN)      | 83%      |
+
+**Comparison to prior work on the same dataset:**
+
+| Source                            | Best model            | Accuracy |
+|-----------------------------------|-----------------------|----------|
+| **This paper**                    | Multi-Layer Perceptron| **100%** |
+| Tibrewal & Dwivedi (prior work)   | SVM (RBF kernel)      | 97.9%    |
+
+> Per-class precision / recall / F1 and confusion matrices for every model are in the [preprint PDF](Preprint_Asteroid_Orbit_Classifier_Report.pdf) (Tables 8&ndash;12) and reproduced in [`Code.ipynb`](Code.ipynb).
 
 ## Repository structure
 
 ```
 .
 ├── Code.ipynb     # full notebook — EDA, preprocessing, model comparison, ensembles
-├── Non_offical_published_Asteroid_Orbit_Classifier_Report.pdf     # written report describing methodology and results
+├── Preprint_Asteroid_Orbit_Classifier_Report.pdf     # written report describing methodology and results
 ├── README.md
 └── LICENSE
 ```
@@ -81,24 +91,10 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 jupyter notebook Code.ipynb
 ```
 
-## Citation
-
-If you reference this work, please cite:
-
-```bibtex
-@inproceedings{almousa2025asteroid,
-  title     = {Asteroid Orbit Classification with Machine Learning: A Data-Driven Approach},
-  author    = {Almousa, Leen},
-  booktitle = {Proceedings of the International Conference on Information Technology and Computer Science (ICTCS)},
-  year      = {2025},
-  address   = {Princess Sumaya University for Technology (PSUT), Jordan},
-  url       = {https://www.researchgate.net/publication/391933697_Asteroid_Orbit_Classification_with_Machine_Learning_A_Data-Driven_Approach}
-}
-```
-
 ## Author
 
 **Leen Almousa** &mdash; [github.com/leenalmousa](https://github.com/leenalmousa)
+&nbsp;&nbsp;Co-authored with Tala Hammouri and Lojain Hamadan (PSUT).
 
 ## License
 
