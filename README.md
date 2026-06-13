@@ -93,8 +93,7 @@ jupyter notebook Code.ipynb
 
 ## Author
 
-**Leen Almousa** &mdash; [github.com/leenalmousa](https://github.com/leenalmousa)
-&nbsp;&nbsp;Co-authored with Tala Hammouri , Lojain Hamadan and Dr.Heba Abdel-Nabi(PSUT).
+Leen Almousa , Tala Hammouri , Lojain Hamadan and Dr.Heba Abdel-Nabi(PSUT).
 
 ## License
 
